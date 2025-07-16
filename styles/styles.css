@@ -16,6 +16,7 @@ h1{
 
 aside{
   width: 300px;
+  max-width: 1140px;
   margin: 0;
   border: 1px solid #625454;
   padding: 20px;
@@ -29,7 +30,7 @@ aside img{
 }
 
 main{
-  max-width: 900px;
+  max-width: 1140px;
 }
 
 main img{
