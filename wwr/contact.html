@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Osoko Odunayo" />
+    <meta
+      name="description"
+      content="Discover the excitement of white-water rafting with expert guides, breathtaking river views, and safe, unforgettable adventures for all skill levels. Book now!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+    <title>About Splash White Water Rafting</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Rafting site logo" class="logo" />
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero contacthero">
+        <img src="images/contacthero.webp" alt="Hero" />
+        <h1>CONTACT US NOW</h1>
+      </div>
+
+      <section class="form-section">
+        <h2>Get in Touch</h2>
+        <p>we'd love to hear from you</p>
+        <form action="" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="_replyto" required />
+
+          <fieldset>
+            <legend>Purpose of your message:</legend>
+            <label for="general-inquiry">
+              <input
+                type="radio"
+                id="general-inquiry"
+                name="purpose"
+                value="general-inquiry"
+                checked
+              />
+              General Inquiry
+            </label>
+            <label for="reservation-question">
+              <input
+                type="radio"
+                id="reservation-question"
+                name="purpose"
+                value="reservation-question"
+              />
+              Reservation Question
+            </label>
+            <label for="contact-phone">
+              <input
+                type="radio"
+                id="contact-phone"
+                name="purpose"
+                value="phone"
+              />
+              Contact by Phone
+            </label>
+          </fieldset>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <section class="company-info">
+        <h2>Our Location</h2>
+        <p>
+          Visit us at our office for more information or to book your next
+          adventure.
+        </p>
+        <address>
+          <p>
+            <strong>Splash White Water Rafting</strong><br />
+            3006 N Mason Ave <br />
+            Chicago, IL 60634, USA
+          </p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Email: Splash@info.com</p>
+        </address>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2968.0551399911155!2d-87.7762339!3d41.9346665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcc81ca308fa7%3A0x5739d542f2ec7af8!2s3006%20N%20Mason%20Ave%20%231%2C%20Chicago%2C%20IL%2060634%2C%20USA!5e0!3m2!1sen!2sng!4v1754425745790!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="boardleaders">
+        <h2>Meet Our Team</h2>
+        <p
+          >Our team is dedicated to providing you with the best rafting
+          experience.</p
+        >
+
+        <div class="leaders">
+          <div class="team-member">
+            <img src="images/team1.jpg" alt="Team Member 1" />
+            <h3>John Doe</h3>
+            <p>Lead Guide</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team2.jpg" alt="Team Member 2" />
+            <h3>Jane Smith</h3>
+            <p>CEO</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team3.jpg" alt="Team Member 2" />
+            <h3>Jane Smith</h3>
+            <p>Safety Officer</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;|2025|Splash White Water Rafting | Osoko Odunayo</p>
+
+      <nav class="socialmedia">
+        <a href="https://facebook.com">
+          <img src="images/facebookicon.webp" alt="Facebook" />
+        </a>
+        <a href="https://twitter.com">
+          <img src="images/xicon.webp" alt="Twitter" />
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagramicon.webp" alt="Instagram" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
