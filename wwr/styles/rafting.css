@@ -304,3 +304,16 @@ iframe {
   border-radius: 50%;
   object-fit: cover;
 }
+
+.contact-footer {
+  display: flex;
+}
+
+.wireframe {
+  margin: 16px;
+  padding: 8px;
+}
+
+.wireframe a {
+  color: #000;
+}
