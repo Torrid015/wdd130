@@ -404,7 +404,7 @@ iframe {
   display: block;
 }
 
-.rafting_container figcaption {
+.rafting_container p {
   padding: 10px;
   font-style: italic;
 }
